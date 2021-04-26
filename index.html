@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Chucknorris Jokes</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <style>
+    #btn {cursor: pointer}
+    .box{box-shadow: 0 10px 10px rgba(0, 0, 0, .3)}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box bg-info text-white p-3 mt-5">
+      <h3>Number Facts</h3>
+      <p>Enter number, get random Fact</p>
+      <input id="input" class="form-control mb-4" type="number">
+      <h5>Number Fact of <span id="num"></span> is :</h5>
+      <div id="fact"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
